@@ -1,0 +1,31 @@
+const products = [
+  {
+    id: 1,
+    name: "iPhone 12 Pro",
+    brand: "Apple",
+    desc: "6.1-inch display",
+    price: 999,
+    image:
+      "https://res.cloudinary.com/dvy3hjshh/image/upload/v1673291244/onlineShop/iphone12pro.jpg",
+  },
+  {
+    id: 2,
+    name: "iPhone 12",
+    brand: "Apple",
+    desc: "5.4-inch display",
+    price: 699,
+    image:
+      "https://res.cloudinary.com/dvy3hjshh/image/upload/v1673291243/onlineShop/iphone12.jpg",
+  },
+  {
+    id: 3,
+    name: "Galaxy S",
+    brand: "Samsung",
+    desc: "6.5-inch display",
+    price: 399,
+    image:
+      "https://res.cloudinary.com/dvy3hjshh/image/upload/v1673291243/onlineShop/galaxyS.png",
+  },
+];
+
+module.exports = products;
