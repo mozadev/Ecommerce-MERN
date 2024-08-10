@@ -7,7 +7,7 @@ const protocol = window.location.protocol;
 // Construir la URL dinámica
 // const url = `https://backend-production-670d.up.railway.app/api`;
 
-const url_backend = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+const url_backend = import.meta.env.VITE_API_URL;
 const url = `${url_backend}/api`;
 
 
