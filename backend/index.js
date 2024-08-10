@@ -17,13 +17,15 @@ const app = express();
 require("dotenv").config();
 
 
-// Configuración de CORS
 const corsOptions = {
-  origin: process.env.CLIENT_URL || 'http://localhost:3000', // Usa la URL de tu frontend en Railway o localhost para desarrollo
+  origin: process.env.CLIENT_URL || 'http://localhost:3000', // URL de tu frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'],
-  allowedHeaders: ['Content-Type', 'Authorization'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'x-auth-token'], // Incluye 'x-auth-token'
   credentials: true,
 };
+
+app.use(cors(corsOptions));
+
 
 app.use(cors(corsOptions));
 
