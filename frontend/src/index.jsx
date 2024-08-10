@@ -1,7 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+//import ReactDOM from "react-dom";
 import { createRoot } from "react-dom/client";
-import App from "./App"; //own created
+import App from "./App.jsx"; // Asegúrate de que la extensión sea .jsx
+
 
 import { configureStore } from "@reduxjs/toolkit";
 import { Provider } from "react-redux";

@@ -1,5 +1,5 @@
 import { useSelector, useDispatch } from "react-redux";
-import { Link, Redirect } from "react-router-dom";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { logoutUser } from "../features/authSlice";
 import { toast } from "react-toastify";

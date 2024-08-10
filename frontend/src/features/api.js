@@ -6,7 +6,7 @@ const protocol = window.location.protocol;
 
 // Construir la URL dinámica
 // const url = `https://backend-production-670d.up.railway.app/api`;
- const url = `https://ecommerce-mern-production-572d.up.railway.app/api`;
+const url = `https://ecommerce-mern-production-572d.up.railway.app/api`;
 
 // Cambiar la URL base de la API para el entorno local
 //const url = `http://localhost:3001/api`;
