@@ -26,4 +26,3 @@ export const setHeaders = () => {
 
   return headers;
 };
-  
